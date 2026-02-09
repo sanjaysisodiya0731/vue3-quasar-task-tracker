@@ -62,7 +62,7 @@ quasar dev
 
 ## Screenshots
 
-### All Tasks
+### All Tasks & Add Task
 
 ![All Task | Add Task](screenshots/all_task_list.png)
 
