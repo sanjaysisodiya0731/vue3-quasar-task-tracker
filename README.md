@@ -60,4 +60,20 @@ npm install
 quasar dev
 ```
 
-# vue3-quasar-task-tracker
+## Screenshots
+
+### All Tasks
+
+![All Task | Add Task](screenshots/all_task_list.png)
+
+### Complited Task
+
+![Complited Task List](screenshots/complited_tasks_list.png)
+
+### Pending Task
+
+![Pending Task List](screenshots/pending_tasks_list.png)
+
+### Complited Marked Task
+
+![Complited Task List](screenshots/task_marked_complited.png)
