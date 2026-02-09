@@ -33,23 +33,25 @@ This is a simple Task Tracker single-page application built using the Quasar Fra
 
 ## 📂 Project Structure
 
+```bash
 src/
 ├── components/
-│ ├── AddTask.vue
-│ ├── TaskItem.vue
-│ ├── TaskList.vue
-│ └── NavTabs.vue
+│   ├── AddTask.vue
+│   ├── TaskItem.vue
+│   ├── TaskList.vue
+│   └── NavTabs.vue
 │
 ├── pages/
-│ ├── AllTasks.vue
-│ ├── CompletedTasks.vue
-│ └── PendingTasks.vue
+│   ├── AllTasks.vue
+│   ├── CompletedTasks.vue
+│   └── PendingTasks.vue
 │
 ├── stores/
-│ └── taskStore.ts
+│   └── taskStore.ts
 │
 └── router/
-└── routes.ts
+    └── routes.ts
+```
 
 ---
 
