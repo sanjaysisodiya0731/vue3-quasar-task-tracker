@@ -59,5 +59,5 @@ src/
 npm install
 quasar dev
 ```
-# vue3-quasar-task-tracker
+
 # vue3-quasar-task-tracker

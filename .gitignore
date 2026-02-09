@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Quasar build output
+dist/
+.quasar/
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Optional lock files (keep only one if needed)
+yarn.lock
+pnpm-lock.yaml
+
+# Coverage
+coverage/
