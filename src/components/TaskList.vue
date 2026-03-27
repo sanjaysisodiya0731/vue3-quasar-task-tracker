@@ -6,6 +6,7 @@
       :task="task"
       @toggle="store.toggleTask"
       @delete="store.deleteTask"
+      @edit="store.updateTask"
     />
 
     <div v-if="tasks.length === 0" class="text-center text-grey q-pa-md">No tasks found</div>
