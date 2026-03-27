@@ -8,6 +8,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
+import { Notify } from 'quasar';
 import { useTaskStore } from 'src/stores/taskStore';
 
 const store = useTaskStore();
@@ -16,6 +17,14 @@ const taskTitle = ref('');
 function add() {
   if (taskTitle.value.trim()) {
     store.addTask(taskTitle.value);
+
+    Notify.create({
+      type: 'positive',
+      message: 'Task added successfully',
+      position: 'top-right',
+      timeout: 1500,
+    });
+
     taskTitle.value = '';
   }
 }

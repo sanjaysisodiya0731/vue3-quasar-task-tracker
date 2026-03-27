@@ -5,7 +5,7 @@
       :key="task.id"
       :task="task"
       @toggle="store.toggleTask"
-      @delete="store.deleteTask"
+      @delete="handleDelete"
       @edit="store.updateTask"
     />
 
@@ -14,6 +14,7 @@
 </template>
 
 <script setup lang="ts">
+import { Notify } from 'quasar';
 import type { Task } from 'src/stores/taskStore';
 import TaskItem from 'src/components/TaskItem.vue';
 import { useTaskStore } from 'src/stores/taskStore';
@@ -23,4 +24,16 @@ defineProps<{
 }>();
 
 const store = useTaskStore();
+
+//Hanlde delete
+const handleDelete = (id: number) => {
+  store.deleteTask(id);
+
+  Notify.create({
+    type: 'negative',
+    message: 'Task deleted successfully',
+    position: 'top-right',
+    timeout: 1500,
+  });
+};
 </script>
