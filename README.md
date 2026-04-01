@@ -21,6 +21,8 @@ This is a simple Task Tracker single-page application built using the Quasar Fra
 - Add new tasks (task name required)
 - Mark tasks as completed or pending
 - Delete tasks
+- Edit task
+- Update task
 - Filter tasks using routes:
   - /all
   - /completed
